@@ -1,2 +1,2 @@
 # first-socialNetwork-front-end
-# first-socialNetwork
+Hi it's my first git-hub code
