@@ -1,0 +1,28 @@
+.fform {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+    background-color: var(--background-color-3);
+    border-radius: var(--border-radius-global);
+    padding: var(--padding-global-inside);
+}
+
+.fform input:first-child {
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 1.5em;
+}
+
+.fform input[type=submit] {
+    background-color: var(--background-color-2);
+    border: none;
+    height: 100%;
+    width: auto;
+    color: white;
+    cursor: pointer;
+}
+
+.fform input[type=submit]:hover {
+    background-color: var(--background-color-1);
+}

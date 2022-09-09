@@ -1,0 +1,92 @@
+/*:root {*/
+/*    --height-global: 100vh;*/
+/*    --height-header: 75px;*/
+/*    --height-content: calc(var(--height-global) - var(--height-header) - var(--padding-global) * 2);*/
+/*    --padding-global: 10px;*/
+/*    --padding-global-inside: 7px;*/
+/*    --border-radius-global: 0;*/
+/*    --background-color-1: rgba(11, 161, 24, 0.5);*/
+/*    --background-color-2: hsl(125, 87% , 34%);*/
+/*    --background-color-3: hsl(126, 42%, 51%);*/
+/*    --background-color-4: hsl(125, 43% , 64%);*/
+/*    --background-color-black: rgba(0, 0, 0, 0.50);*/
+/*    --shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);*/
+/*    --text-color: green;*/
+/*    --color-active: gold;*/
+/*}*/
+:root {
+    --height-global: 100vh;
+    --height-header: 75px;
+    --height-content: calc(var(--height-global) - var(--height-header) - var(--padding-global) * 2);
+    --padding-global: 10px;
+    --padding-global-inside: 7px;
+    --border-radius-global: 0.2em;
+    --background-color-global: rgba(15, 15, 15);
+    --background-color-1: rgba(0, 0, 0, 0.5);
+    --background-color-2: rgb(33, 33, 33);
+    --background-color-3: rgb(55, 55, 55);
+    --background-color-4: rgb(77, 77, 77);
+    --background-color-black: rgba(0, 0, 0, 0.50);
+    --shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    --text-color: white;
+    --text-color-alt: var(--background-color-3);
+    --color-active: gold;
+}
+
+
+
+.avatar-logo {
+    height: 100px;
+    border-radius: 50%;
+    border: medium solid var(--background-color-3);
+}
+
+
+.avatar-logo-small {
+    height: 65px;
+    border-radius: 50%;
+    border: medium solid var(--background-color-4);
+}
+
+/*///////////////////////*/
+.passiveLink {
+    color: white;
+}
+
+.activeLink {
+    color: var(--color-active);
+    background-color: var(--background-color-2);
+    border-radius: var(--border-radius-global);
+}
+
+.passiveLink, .activeLink {
+    text-decoration: none;
+    padding-inline: 5px;
+    display: flex;
+    border-radius: var(--border-radius-global);
+    margin-block: 1px;
+}
+
+.passiveLink:hover, .activeLink:hover {
+    background-color: var(--background-color-1);
+    transition: 0.3s;
+}
+/*///////////////////////*/
+.textarea {
+    resize: none;
+}
+
+button {
+    background-color: var(--background-color-2);
+    border: none;
+    border-radius: var(--border-radius-global);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding-block: 2px;
+}
+
+div {
+    color: var(--text-color)
+}

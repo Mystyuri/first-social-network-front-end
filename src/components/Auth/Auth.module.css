@@ -1,0 +1,9 @@
+.auth *{
+    color: white;
+    text-align: right;
+}
+
+.auth button{
+    background-color: var(--background-color-4);
+    color: var(--text-color)
+}

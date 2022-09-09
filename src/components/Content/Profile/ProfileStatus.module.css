@@ -1,0 +1,25 @@
+.profileStatus {
+    padding-inline: 5px;
+    transition: 0.3s;
+}
+
+.profileStatus span[isEdit=true]:hover {
+    cursor: pointer;
+    background-color: var(--background-color-3);
+    padding-inline: 5px;
+    margin-inline: -5px;
+    border-radius: 3px;
+}
+
+.profileStatus input {
+    /*width: 100%;*/
+    outline: none;
+    border: none;
+    /*z-index: 10;*/
+    background-color: transparent;
+    border-bottom: 2px solid var(--background-color-2);
+    transition: var(--animation-time);
+    font-size: initial;
+    font-style: inherit;
+    color: var(--text-color);
+}

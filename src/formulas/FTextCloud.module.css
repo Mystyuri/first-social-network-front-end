@@ -1,0 +1,41 @@
+.fTextCloud {
+    display: grid;
+    gap: 0.4em;
+    overflow: scroll;
+    align-content: start;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 0;
+    scroll-padding-left: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-active);
+    border-radius: var(--border-radius-global);
+    filter: alpha(opacity=0);
+}
+
+.background {
+    display: grid;
+    background-color: var(--background-color-3);
+    padding: var(--padding-global-inside);
+    border-radius: var(--border-radius-global);
+    color: var(--text-color);
+    word-break: break-word;
+    height: max-content;
+    align-self: start;
+}
+
+.likes {
+    justify-self: right;
+    background-color: var(--background-color-2);
+    color: var(--background-color-4);
+    padding: 2px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}

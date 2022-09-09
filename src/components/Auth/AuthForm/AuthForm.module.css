@@ -1,0 +1,150 @@
+:root {
+    --animation-time: 0.3s;
+}
+
+.AuthForm {
+    display: grid;
+    place-items: center;
+}
+
+
+.block {
+    display: grid;
+    align-content: center;
+    background-color: white;
+    height: auto;
+    width: 400px;
+    border-radius: var(--border-radius-global);
+    box-shadow: var(--shadow);
+    z-index: 1;
+    padding: var(--padding-global-inside);
+    place-items: center;
+    padding-block: 50px;
+    transition: var(--animation-time);
+}
+
+.AuthForm, .background{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.background{
+    background-color: var(--background-color-black);
+    backdrop-filter: blur(5px);
+}
+
+.form {
+    display: grid;
+    justify-self: center;
+    width: 65%;
+}
+
+
+.form > div {
+    position: relative;
+}
+
+.form input[type=submit] {
+    background-color: var(--background-color-2);
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: var(--animation-time);
+    position: absolute;
+    right: 0;
+    top: -2em;
+}
+
+.form input[type=submit]:disabled{
+    background-color: grey;
+}
+
+.form input[type=submit]:hover{
+    filter: brightness(80%);
+}
+
+
+.form input[type=password],
+.form input[type=captcha],
+.form input[type=email]{
+    email-decoration: true;
+    width: 100%;
+    outline: none;
+    border: none;
+    z-index: 10;
+    padding: 0 0 5px 0;
+    background-color: transparent;
+    border-bottom: 2px solid var(--background-color-2);
+    transition: var(--animation-time);
+    margin-bottom: 1.5em;
+}
+
+/*.form input[type=password]:focus,*/
+/*.form input[type=email]:focus {*/
+/*    border-bottom: 2px solid var(--color-active);*/
+/*}*/
+
+.form input[type=password]:focus ~ label,
+.form input[type=email]:focus ~ label,
+.form input[type=captcha]:focus ~ label,
+.form input:not(:placeholder-shown) ~ label {
+    top: -1em;
+    font-size: 85%;
+    filter: brightness(150%);
+}
+
+.form input[type=checkbox] {
+    margin-bottom: 10px;
+}
+
+.form label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    color: grey;
+    transition: var(--animation-time);
+}
+
+
+.warning {
+    position: absolute;
+    color: red;
+    font-size: 85%;
+    top: 1.8em;
+    right: 0;
+}
+
+.form div[data-error] input,
+.form div[data-error] input:focus {
+    border-bottom: 2px solid red;
+}
+
+label[data-error]::after {
+    content: " : "attr(data-error) ;
+    color: red;
+}
+
+.form span[data-error] {
+    position: absolute;
+    right: 0;
+    top: -2em;
+    text-align: right;
+    color: red;
+    font-size: 85%;
+}
+
+.form img {
+    z-index: -1;
+    background-color: red;
+    justify-self: end;
+}
+
+.form img:hover {
+    cursor: pointer;
+}
+

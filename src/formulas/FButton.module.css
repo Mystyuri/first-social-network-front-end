@@ -1,0 +1,28 @@
+.fbuttonArea {
+    display: grid;
+    justify-content: left;
+}
+
+.fbuttonPassive, .fbuttonActive{
+    width: 100%;
+    height: 2em;
+    transition: 0.3s;
+}
+
+.fbuttonPassive:disabled, .fbuttonActive:disabled {
+    background-color: darkgray;
+    color: white;
+    cursor: auto;
+}
+
+.fbuttonActive {
+    background-color: var(--color-active);
+    color: var(--text-color-alt);
+}
+
+.invisibleTextH {
+    height: 0;
+    width: 100%;
+    padding-inline: 5px;
+}
+

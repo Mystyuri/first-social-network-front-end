@@ -1,0 +1,5 @@
+.dialog {
+    display: grid;
+    height: var(--height-content);
+    grid-template-rows: 1fr auto;
+}

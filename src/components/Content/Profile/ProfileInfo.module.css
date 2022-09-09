@@ -1,0 +1,57 @@
+.inputForm {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content;
+    gap: 5px;
+}
+
+.inputForm b {
+    /*width: 140px;*/
+}
+
+.inputForm input {
+    background: var(--background-color-3);
+    border: none;
+    font: inherit;
+    color: inherit;
+    padding-inline: 2px;
+    height: 0.97em;
+    align-self: center;
+    /*padding-bottom: 3px;*/
+    outline: none;
+}
+
+
+.editButton {
+    position: absolute;
+    right: 0;
+    top: -1.8em;
+}
+
+.form {
+    position: relative;
+}
+
+.form H3 {
+    margin-block: 10px;
+}
+
+.form h1 {
+    margin: 0.8em 0 0 0;
+    font-weight: bold;
+    font-size: 2em;
+    height: 1.4em;
+    color: red;
+}
+
+.form h1 input {
+    height: initial;
+    width: calc(100% + 38px);
+}
+
+
+.form i {
+    margin-bottom: 1em;
+    color: var(--color-active)
+}
+

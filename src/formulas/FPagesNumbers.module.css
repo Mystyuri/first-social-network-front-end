@@ -1,0 +1,25 @@
+.numbers {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    grid-template-columns: auto;
+    column-gap: var(--padding-global-inside);
+    color: var(--text-color);
+    cursor: default;
+    user-select: none
+}
+
+.active {
+    background-color: var(--background-color-1);
+    border-radius: var(--border-radius-global);
+    padding-inline: 3px;
+    color: var(--color-active);
+}
+
+.number {
+    cursor: pointer;
+}
+
+
+
+

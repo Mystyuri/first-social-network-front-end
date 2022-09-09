@@ -1,0 +1,35 @@
+.global {
+    background-color: var(--background-color-global);
+}
+
+.app {
+    display: grid;
+    width: 720px;
+    height: var(--height-global);
+    margin: 0 auto;
+    grid-template-areas:
+          "a a"
+          "b c"
+          "d d";
+
+    grid-template-rows: var(--height-header) 1fr;
+    grid-template-columns: 1fr 5fr;
+}
+
+.a1 {
+    background-color: var(--background-color-2);
+    grid-area: a;
+    padding: var(--padding-global);
+}
+
+.a2 {
+    background-color: var(--background-color-3);
+    grid-area: b;
+    padding: var(--padding-global);
+}
+
+.a3 {
+    background-color: var(--background-color-4);
+    grid-area: c;
+    padding: var(--padding-global);
+}

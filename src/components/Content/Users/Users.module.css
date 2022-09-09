@@ -1,0 +1,27 @@
+.users {
+    display: grid;
+    grid-template-areas:
+        "a"
+        "c"
+        "b";
+    gap: var(--padding-global-inside);
+}
+
+.a {
+    grid-area: a;
+    display: grid;
+    justify-self: center;
+}
+
+.b {
+    grid-area: b;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.c {
+    grid-area: c;
+    display: grid;
+    justify-self: center;
+    margin-top: 50px;
+}

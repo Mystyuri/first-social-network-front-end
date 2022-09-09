@@ -1,0 +1,9 @@
+.header {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.b {
+    display: grid;
+    justify-content: right;
+}

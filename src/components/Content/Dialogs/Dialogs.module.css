@@ -1,0 +1,18 @@
+.dialogs {
+    display: grid;
+    grid-template-areas:
+          "a b"
+          "c b";
+    grid-template-columns: 1fr 3fr;
+    gap: var(--padding-global);
+}
+
+.a1 {
+    grid-area: a;
+    border-right: 2px solid var(--color-active);
+}
+
+.a2 {
+    grid-area: b;
+    height: var(--height-content);
+}

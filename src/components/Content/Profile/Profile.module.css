@@ -1,0 +1,72 @@
+.profile {
+    display: grid;
+    grid-template-areas:
+        "a b";
+    grid-template-columns: auto 1fr;
+    gap: var(--padding-global);
+}
+
+.a1 {
+    grid-area: a;
+    position: relative;
+}
+
+.a1 input[type=file] {
+    display: none;
+}
+
+.a1 label[myProfile=true] {
+    cursor: pointer;
+}
+
+.a1 label[myProfile=true]:hover img {
+    filter: brightness(80%);
+}
+
+.a1 label div {
+    display: none;
+}
+
+.a1 label[myProfile=true]:hover div {
+    display: block;
+    position: absolute;
+    right: 0.5em;
+    color: white;
+    font-size: 2em;
+    z-index: 10;
+}
+
+
+.a2 {
+    grid-area: b;
+    display: grid;
+    height: var(--height-content);
+    align-content: start;
+}
+
+.a2 h2 {
+    margin-bottom: 0px;
+}
+
+.a2 i {
+    text-align: start;
+    display: block;
+}
+
+.a2 > div {
+    margin-bottom: var(--padding-global-inside);
+}
+
+.text {
+    min-height: 0;
+}
+
+.editor {
+    width: fit-content;
+    color: var(--color-active);
+    font-size: 1em;
+    cursor: pointer;
+    background-color: var(--background-color-2);
+    padding-inline: var(--padding-global-inside);
+    border-radius: var(--border-radius-global);
+}
