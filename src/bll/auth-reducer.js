@@ -68,6 +68,7 @@ const authReducer = createSlice({
         isAuth: "initialise",
         message: "",
         captchaUrl: "",
+        headers: {"API-KEY": "65665b14-421e-4645-9922-37fbd2b4d531"},
     },
     reducers: {
         isOnAction(state, action) {

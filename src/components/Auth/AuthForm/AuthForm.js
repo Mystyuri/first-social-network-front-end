@@ -3,6 +3,7 @@ import css from "./AuthForm.module.css"
 import {useNavigate} from "react-router-dom";
 import {useForm} from "react-hook-form";
 
+
 const AuthForm = ({logic, authAction, error, imgCaptchaUrl}) => {
     let [state, getState] = useState()
     let navigator = useNavigate()
@@ -66,6 +67,7 @@ const AuthForm = ({logic, authAction, error, imgCaptchaUrl}) => {
                         <input type="submit" value={state === 1 ? "" : "Login"} style={{"width": "75px"}}
                                disabled={!isValid || state === 1}/>
                     </div>
+                    {/*<a target="_blank" href="https://social-network.samuraijs.com/signUp">New Login</a>*/}
                 </form>
             </div>
         </div>
