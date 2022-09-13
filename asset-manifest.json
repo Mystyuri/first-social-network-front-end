@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/first-socialNetwork-front-end/static/css/main.e748e354.css",
-    "main.js": "/first-socialNetwork-front-end/static/js/main.d091ab3d.js",
-    "static/js/787.e3d3b41c.chunk.js": "/first-socialNetwork-front-end/static/js/787.e3d3b41c.chunk.js",
-    "static/media/avatar.jpg": "/first-socialNetwork-front-end/static/media/avatar.0947f80c514647e91c75.jpg",
-    "index.html": "/first-socialNetwork-front-end/index.html",
-    "main.e748e354.css.map": "/first-socialNetwork-front-end/static/css/main.e748e354.css.map",
-    "main.d091ab3d.js.map": "/first-socialNetwork-front-end/static/js/main.d091ab3d.js.map",
-    "787.e3d3b41c.chunk.js.map": "/first-socialNetwork-front-end/static/js/787.e3d3b41c.chunk.js.map"
+    "main.css": "/first-social-network-front-end/static/css/main.e748e354.css",
+    "main.js": "/first-social-network-front-end/static/js/main.4ba02b1d.js",
+    "static/js/787.e3d3b41c.chunk.js": "/first-social-network-front-end/static/js/787.e3d3b41c.chunk.js",
+    "static/media/avatar.jpg": "/first-social-network-front-end/static/media/avatar.0947f80c514647e91c75.jpg",
+    "index.html": "/first-social-network-front-end/index.html",
+    "main.e748e354.css.map": "/first-social-network-front-end/static/css/main.e748e354.css.map",
+    "main.4ba02b1d.js.map": "/first-social-network-front-end/static/js/main.4ba02b1d.js.map",
+    "787.e3d3b41c.chunk.js.map": "/first-social-network-front-end/static/js/787.e3d3b41c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e748e354.css",
-    "static/js/main.d091ab3d.js"
+    "static/js/main.4ba02b1d.js"
   ]
 }
