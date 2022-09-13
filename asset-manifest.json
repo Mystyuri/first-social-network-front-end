@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/first-socialNetwork-front-end/static/css/main.61d35608.css",
-    "main.js": "/first-socialNetwork-front-end/static/js/main.c4aab57f.js",
+    "main.css": "/first-socialNetwork-front-end/static/css/main.88324872.css",
+    "main.js": "/first-socialNetwork-front-end/static/js/main.1c735a87.js",
     "static/js/787.e3d3b41c.chunk.js": "/first-socialNetwork-front-end/static/js/787.e3d3b41c.chunk.js",
     "static/media/avatar.jpg": "/first-socialNetwork-front-end/static/media/avatar.0947f80c514647e91c75.jpg",
     "index.html": "/first-socialNetwork-front-end/index.html",
-    "main.61d35608.css.map": "/first-socialNetwork-front-end/static/css/main.61d35608.css.map",
-    "main.c4aab57f.js.map": "/first-socialNetwork-front-end/static/js/main.c4aab57f.js.map",
+    "main.88324872.css.map": "/first-socialNetwork-front-end/static/css/main.88324872.css.map",
+    "main.1c735a87.js.map": "/first-socialNetwork-front-end/static/js/main.1c735a87.js.map",
     "787.e3d3b41c.chunk.js.map": "/first-socialNetwork-front-end/static/js/787.e3d3b41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61d35608.css",
-    "static/js/main.c4aab57f.js"
+    "static/css/main.88324872.css",
+    "static/js/main.1c735a87.js"
   ]
 }
