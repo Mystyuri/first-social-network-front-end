@@ -1,5 +1,9 @@
 .global {
     background-color: var(--background-color-global);
+    display: grid;
+    place-items: center;
+    height: var(--height-global);
+    text-align: center;
 }
 
 .app {
