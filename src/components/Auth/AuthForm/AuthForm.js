@@ -35,7 +35,7 @@ const AuthForm = ({logic, authAction, error, imgCaptchaUrl}) => {
                         <span data-error={error}>{error}</span>
                     </div>
                     <div data-error={errors?.email?.message}>
-                        <input type="email" placeholder=" " disabled={logic} {...register("email", {
+                        <input type="email" placeholder=" " disabled={logic} defaultValue={"free@samuraijs.com"} {...register("email", {
                             required: "обязательное поле",
                             maxLength: {value: info.textLength, message: `Не более ${info.textLength} символов`},
                             // pattern: {value: /^\S+@\S+$/i}
@@ -43,7 +43,7 @@ const AuthForm = ({logic, authAction, error, imgCaptchaUrl}) => {
                         <label data-error={errors?.email?.message}>Email</label>
                     </div>
                     <div data-error={errors?.password?.message}>
-                        <input type="password" placeholder=" " disabled={logic} {...register("password", {
+                        <input type="password" placeholder=" " disabled={logic} defaultValue={"free"} {...register("password", {
                             required: "обязательное поле",
                             maxLength: 100,
                         })} />
