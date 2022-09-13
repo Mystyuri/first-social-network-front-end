@@ -1,5 +1,9 @@
 .global {
     background-color: var(--background-color-global);
+}
+
+.preloader {
+    background-color: var(--background-color-global);
     display: grid;
     place-items: center;
     height: var(--height-global);
