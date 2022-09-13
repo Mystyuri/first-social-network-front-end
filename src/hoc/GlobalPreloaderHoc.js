@@ -7,7 +7,7 @@ import FPreloader from "../formulas/FPreloader";
 const GlobalPreloader = (Component) => {
     const ComponentWithGlobalPreloader = (props) => {
         props.state.isAuth === "initialise" && props.authMeThunk()
-        if (props.state.isAuth === "initialise") return <div>App Loading...</div>
+        if (props.state.isAuth === "initialise") return <div style={{"color":"var(--background-color-2)"}}>App Loading...</div>
         return (
             <Component {...props}/>
         );
