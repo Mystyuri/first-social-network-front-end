@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/first-social-network-front-end/static/css/main.f2cc8438.css",
+    "main.css": "/first-social-network-front-end/static/css/main.31670a7c.css",
     "main.js": "/first-social-network-front-end/static/js/main.972f760f.js",
     "static/js/787.e3d3b41c.chunk.js": "/first-social-network-front-end/static/js/787.e3d3b41c.chunk.js",
     "static/media/avatar.jpg": "/first-social-network-front-end/static/media/avatar.0947f80c514647e91c75.jpg",
     "index.html": "/first-social-network-front-end/index.html",
-    "main.f2cc8438.css.map": "/first-social-network-front-end/static/css/main.f2cc8438.css.map",
+    "main.31670a7c.css.map": "/first-social-network-front-end/static/css/main.31670a7c.css.map",
     "main.972f760f.js.map": "/first-social-network-front-end/static/js/main.972f760f.js.map",
     "787.e3d3b41c.chunk.js.map": "/first-social-network-front-end/static/js/787.e3d3b41c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2cc8438.css",
+    "static/css/main.31670a7c.css",
     "static/js/main.972f760f.js"
   ]
 }
