@@ -12,8 +12,8 @@
 
 .app {
     display: grid;
-    width: 720px;
-    height: var(--height-global);
+    max-width: 720px;
+    max-height: var(--height-global);
     margin: 0 auto;
     grid-template-areas:
           "a a"
